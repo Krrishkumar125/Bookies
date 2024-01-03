@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.first{
+    height: 98vh;
+    width: 99vw;
+    background-image: url(images/mainbg.jpg);
+}
+.moving-tag{
+    color: whitesmoke;
+    font-family: Dancing Script,New Roman;
+    font-size: 100px;
+    position: absolute;
+    top: 39vh;
+}
+.logo{
+    height: 198px; 
+     transition: transform 0.2s;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: solid;
+     border-width: 1px;
+}
+.logo:hover{
+    transform: scale(1.19);
+}
+table{
+    border-collapse: collapse;
+    border-width: 10px;
+    font-size: x-large;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 100vh;
+}
+.website-name{
+    font-size: 30px;
+}
+p{
+    font-size: x-large;
+}
+.first-row{
+    height: 250px;
+    width: 300px;
+}
+body{
+   padding-bottom: 500px;
+   background-color: rgb(210, 209, 209);
+
+}
