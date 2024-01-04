@@ -19,8 +19,6 @@ table{
   font-size: xx-large;
   color: rgb(12, 12, 12);
   background-color: rgb(251, 248, 248);
-  display: inline-block;
-  text-align: center;
   position: absolute;
   top: -5px;
   left: 34vw;
@@ -42,4 +40,24 @@ table{
     font-family: 'roboto';
     font-size: larger;
     padding-left: 10px;
+}
+.select{
+    width: 58vw;
+    height: 15vh;
+    border: 1px solid black;
+    background-color: rgb(210, 209, 209);
+}
+.select img{
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 100px;
+    width: 225px;
+    object-fit: cover;
+}
+.ps{
+    font-family:'roboto';
+    font-size: xx-large;
+    position: absolute;
+    top: -5px;
+    left: 250px;
 }
